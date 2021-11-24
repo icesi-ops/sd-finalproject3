@@ -35,7 +35,9 @@ Y para importarlas es:
  `sudo microk8s ctr image import <Nombre>.tar`   
 Con todo esto, se procede a crear los Pods, luego los ReplicaSets y finalmente los Deployments.   
 
-
+Primero instalar docker, [Aquí está la información para hacerlo](https://github.com/icesi-ops/training_docker/blob/master/00_installAndBasicCommands/00_init.md)   
+Despues, descargar las imagenes del [frontend](), [backend]() y la [base de datos]() del docker hub, corriendo el siguiente comando:  
+`docker pull <Nombre de autor>/<imagen>`
 
 ## Retrospectiva: ##  
 
