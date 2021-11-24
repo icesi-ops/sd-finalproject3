@@ -30,6 +30,12 @@ Para ello, se procede a crear los Dockerfiles para la creación de estas imagene
 Con el siguiente comando se crean las imagenes a partir de los Dockerfiles.  
  `sudo docker build . -t <Nombre de la imagen>:<tag>`  
 Para "Subir" las imagenes y poderlas usar con microk8s se usa:  
- `sudo docker save workshop > workshop.tar`  
+ `sudo docker save <Nombre de la imagen> > <Nombre>.tar`  
 Y para importarlas es:  
- `sudo microk8s ctr image import workshop.tar`  
+ `sudo microk8s ctr image import <Nombre>.tar`   
+Con todo esto, se procede a crear los Pods, luego los ReplicaSets y finalmente los Deployments.   
+
+
+
+## Retrospectiva: ##  
+
