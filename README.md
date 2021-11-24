@@ -24,3 +24,12 @@ Con todo esto se nos pide lo siguiente:
     -  La BD no es alcanzable desde internet.  
     -  La BD se conecta con el backend.   
 
+## Procedimiento: ##  
+Primero se han de **crear las imagenes** de los componentes para poder ser desplegados en kubernetes.  
+Para ello, se procede a crear los Dockerfiles para la creación de estas imagenes.  
+Con el siguiente comando se crean las imagenes a partir de los Dockerfiles.  
+ `sudo docker build . -t <Nombre de la imagen>:<tag>`  
+Para "Subir" las imagenes y poderlas usar con microk8s se usa:  
+ `sudo docker save workshop > workshop.tar`  
+Y para importarlas es:  
+ `sudo microk8s ctr image import workshop.tar`  
