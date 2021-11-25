@@ -36,9 +36,14 @@ Y para importarlas es:
 Con todo esto, se procede a crear los Pods, luego los ReplicaSets y finalmente los Deployments.   
 
 Primero instalar docker, [Aquí está la información para hacerlo](https://github.com/icesi-ops/training_docker/blob/master/00_installAndBasicCommands/00_init.md)   
-Despues, descargar las imagenes del [frontend](https://hub.docker.com/repository/docker/symghoul/midterm3front), [backend]() y la [base de datos]() del docker hub, corriendo el siguiente comando:  
+Despues, descargar las imagenes del [frontend](https://hub.docker.com/repository/docker/symghoul/midterm3front), [backend]() y la [base de datos](https://hub.docker.com/_/couchdb) del docker hub, corriendo el siguiente comando:  
 `docker pull <Nombre de autor>/<imagen>`  
-Luego, crear el deployment.yml
+Luego, crear el deployment.yml  
+Con esto y usando el comando:  
+`sudo microk8s.kubectl create -f deployment.yml`  
+Se obtiene la parte del front activo.  
 
+El proceso con el back es un poco parecido, lo que hay de diferente son las imagenes.
+  
 ## Retrospectiva: ##  
 
