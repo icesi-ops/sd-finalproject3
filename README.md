@@ -46,12 +46,12 @@ Se obtiene la parte del front activo.
 El proceso con el back es un poco parecido, lo que hay de diferente son las imagenes.
   
 ## Retrospectiva: ##  
-Aprendizajes principales:  
+### **Aprendizajes principales:** ###    
   - Murphy puede joder como uno no se puede imaginar
   - El despliegue de infraestructura es un tema que cuando no lo dominas del todo te puede consumir todo el tiempo del mundo.  
   - El despliegue de infraestructura, cuando lo manejas puedes hacer maravillas.  
-  - No subestimar tanto la entrega de una actividad que a priori se ve que no va a llevar mucho tiempo.  
-Qué salió bien:
+  - No subestimar tanto la entrega de una actividad que a priori se ve que no va a llevar mucho tiempo.   
+### **Qué salió bien:** ###
   - La aplicación como tal no funcionaba, por lo que nada salió bien, pero en esqueleto estaba bien desplegada.  
-Qué salió mal:
+### **Qué salió mal:** ###
   - Un error con el cluster no permitía el correcto despliegue de los Pods por lo que no permitía probar las funcionalidades, a pesar de que como se mencionó en terminos de estructura, estaba bien la declaración.  
