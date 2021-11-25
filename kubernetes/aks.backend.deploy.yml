@@ -20,8 +20,8 @@ spec:
        ports:
        - containerPort: 32000
        env:
-       - name: DATABASE_URL
-         value: db-service
+        - name: DATABASE_URL
+          value: db-service
 
 ---
 

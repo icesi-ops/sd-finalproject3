@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 
 var url;
 if (process.env.DATABASE_URL) {
+    console.log('found env ', process.env.DATABASE_URL)
     url = process.env.DATABASE_URL;
 } else {
     try {
