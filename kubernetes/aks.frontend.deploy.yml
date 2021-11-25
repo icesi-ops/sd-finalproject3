@@ -16,7 +16,7 @@ spec:
     spec:
      containers:
      - name: frontend
-       image: nicolass03/dsfinal-front:latest
+       image: nicolass03/dsfinal-front
        ports:
         - containerPort: 8080
 
