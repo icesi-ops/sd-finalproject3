@@ -1,0 +1,2 @@
+fronentsvc en app, cambiar el puerto a 80 y apuntar al 8080
+type: loadbalancer
