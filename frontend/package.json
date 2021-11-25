@@ -26,5 +26,5 @@
   "engines": {
     "node": "8.x"
   },
-  "proxy": "http://flask-service:5000"
+  "proxy": "http://back-service:32000"
 }
